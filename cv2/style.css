@@ -1,0 +1,81 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9f8;
+    color: #222;
+    margin: 0;
+    padding: 0;
+}
+
+.cv-container {
+    width: 900px;
+    margin: 40px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-left: 10px solid #2a7a3b;
+    padding: 40px 60px;
+}
+
+.cv-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 3px solid #2a7a3b;
+    padding-bottom: 20px;
+}
+
+.header-left h1 {
+    font-size: 28px;
+    margin: 0;
+    color: #2a7a3b;
+}
+
+.header-left h2 {
+    font-size: 18px;
+    margin-top: 5px;
+    color: #555;
+}
+
+.header-right {
+    text-align: right;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+section {
+    margin-top: 30px;
+}
+
+h3 {
+    color: #2a7a3b;
+    border-bottom: 2px solid #2a7a3b;
+    padding-bottom: 4px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li::before {
+    content: "• ";
+    color: #2a7a3b;
+    font-weight: bold;
+}
+
+.job h4 {
+    color: #1f5c2d;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.job span {
+    float: right;
+    color: #777;
+    font-size: 14px;
+}
+
+.languages p {
+    margin: 0;
+}
